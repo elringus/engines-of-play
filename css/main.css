@@ -95,31 +95,134 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+    background-color: #424242;
+}
+
 .page-content {
 
 }
 
-.grid-pad-inner {
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 0;
+.table {
+    padding-left: 10px;
+    padding-top: 10px;
+    float: left;
+    width: 48%;
 }
 
 .grid-node {
-
+    padding-top: 1px;
+    padding-left: 1px;
+    padding-right: 0;
 }
 
 .node-content {
-    background: #ccc;
-    padding: 10px;
+    background: #f6f6f6;
+    width: 100%;
+    height: 0;
+    padding-bottom: 70%;
 }
 
 .grid-node-overhovered {
-    outline: 1px dotted red;
+    outline: 2px dashed;
+    outline-offset: -5px;
 }
 
 .grid-node-selected {
-    background: red;
+
+}
+
+.right-border {
+    border-right: 4px solid;
+}
+
+.left-border {
+    border-left: 4px solid;
+}
+
+.bottom-border {
+    border-bottom: 4px solid;
+}
+
+.top-border {
+    border-top: 4px solid;
+}
+
+.novelty .grid-node-selected {
+    background: #91c54c;
+}
+
+.challenge .grid-node-selected {
+    background: #4ea1e0;
+}
+
+.harmony .grid-node-selected {
+    background: #b9adcb;
+}
+
+.stimulation .grid-node-selected {
+    background: #e4a394;
+}
+
+.novelty {
+    border-color: #387612;
+    outline-color: #387612;
+    color: #387612;
+}
+
+.challenge {
+    border-color: #0a46b5;
+    outline-color: #0a46b5;
+    color: #0a46b5;
+}
+
+.harmony {
+    border-color: #6c4abb;
+    outline-color: #6c4abb;
+    color: #6c4abb;
+}
+
+.stimulation {
+    border-color: #b2493b;
+    outline-color: #b2493b;
+    color: #b2493b;
+}
+
+.legend {
+    width: 0;
+    height: 0;
+    position: relative;
+    font-size: 2vw;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
+    white-space: nowrap;
+    /*text-shadow: 1px 1px #6a6a6a;*/
+    user-select: none;
+    cursor: default;
+}
+
+.legend-top {
+    top: 0.35vw;
+    left: 52%;
+    text-align: left;
+}
+
+.legend-right {
+    top: 0.35vw;
+    text-align: right;
+    float: right;
+    right: 24%;
+}
+
+.legend-left {
+    bottom: 3vw;
+    left: 1vw;
+}
+
+.legend-bottom {
+    bottom: 3vw;
+    left: 32%;
+    text-align: left;
 }
 
 /* ==========================================================================

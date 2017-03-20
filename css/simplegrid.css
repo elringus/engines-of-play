@@ -18,7 +18,7 @@
 [class*='col-'] {
 	float: left;
   	min-height: 1px;
-	padding-right: 5px; /* column-space */
+	/*padding-right: 5px; !* column-space *!*/
 }
 
 [class*='col-'] [class*='col-']:last-child {
@@ -174,14 +174,14 @@
 	margin-left: 8.33%
 }
 
-@media handheld, only screen and (max-width: 767px) {
+/*@media handheld, only screen and (max-width: 767px) {
 	.grid {
 		width: 100%;
 		min-width: 0;
 		margin-left: 0;
 		margin-right: 0;
-		padding-left: 20px; /* grid-space to left */
-		padding-right: 10px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-10px=10px */
+		padding-left: 20px; !* grid-space to left *!
+		padding-right: 10px; !* grid-space to right: (grid-space-left - column-space) e.g. 20px-10px=10px *!
 	}
 
 	[class*='col-'] {
@@ -189,20 +189,20 @@
 		float: none;
 		margin: 10px 0;
 		padding-left: 0;
-		padding-right: 10px; /* column-space */
+		padding-right: 10px; !* column-space *!
 	}
 
 	[class*='col-'] [class*='col-'] {
 		padding-right: 0;
 	}
 
-	/* Mobile Layout */
+	!* Mobile Layout *!
 
 	[class*='mobile-col-'] {
 		float: left;
 		margin: 0 0 10px;
 		padding-left: 0;
-		padding-right: 10px; /* column-space */
+		padding-right: 10px; !* column-space *!
 		padding-bottom: 0;
 	}
 
@@ -257,7 +257,7 @@
 		width: 8.33%
 	}
 
-	/* Layout Columns */
+	!* Layout Columns *!
 
 	.mobile-col-11-12 {
 		width: 91.66%
@@ -284,5 +284,5 @@
 		width: 0;
 		height: 0;
 	}
-}
+}*/
 
